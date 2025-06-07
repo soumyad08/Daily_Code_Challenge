@@ -1,5 +1,5 @@
 public class sum{
-    public static int sum(){
+    public static int summation(){
         int sum = 0;
         for(int i = 0; i < 100; i++){
             sum += i;
@@ -7,6 +7,6 @@ public class sum{
         return sum;
     }
     public static void main(String[] args){
-        System.out.println(sum());
+        System.out.println(summation());
     }
 }
